@@ -2,7 +2,7 @@
 
 ##Feature
 
-- DOCTYPE HTML 4.01 Transitional
+- DOCTYPE XHTML 1.0 Transitional
 - Dreamewaver Template
 - HTML5 Boilerplate like IE Hack
 - include Sass/Compass init
