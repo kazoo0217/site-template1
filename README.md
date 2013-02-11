@@ -7,4 +7,5 @@
 - HTML5 Boilerplate like IE Hack
 - include Sass/Compass init
 - include jQuery CDN
+- include kswedberg/jquery-smooth-scroll
 
