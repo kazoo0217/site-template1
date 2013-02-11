@@ -1,0 +1,9 @@
+//mixins
+
+//hr line style
+@mixin hr-style($b-style, $b-color) {
+  border-width: 1px 0px 0px 0px;
+  border-style: $b-stile;
+  border-color: $b-color;
+  height: 1px;
+}
