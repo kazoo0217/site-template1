@@ -1,4 +1,13 @@
-//
+//common.scss
 
+//reset
 @import "compass/reset";
+//import all compass
+@import "compass";
+//import mixins
+@import "mixins";
+
+* {
+  outline: none;
+}
 
