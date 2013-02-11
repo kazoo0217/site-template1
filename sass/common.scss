@@ -11,3 +11,8 @@
   outline: none;
 }
 
+hr {
+  $b-style:dotted;
+  $b-color:#ccc;
+  @include hr-style($b-style, $b-color);
+}
