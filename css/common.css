@@ -1,4 +1,5 @@
-/*! _normalize.css v2.1.2 | MIT License | http://github.com/hail2u/normalize.scss */
+@charset "UTF-8";
+/*!! _normalize.css v2.1.2 | MIT License | http://github.com/hail2u/normalize.scss */
 /* =============================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -317,8 +318,17 @@ table {
   border-spacing: 0;
 }
 
-* {
-  outline: none;
+/* =============================================================================
+  Common style 
+   ========================================================================== */
+/**
+ * My common style for elements
+ */
+body {
+  background-color: white;
+  color: #333333;
+  line-height: 1.6;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-selif;
 }
 
 hr {
@@ -326,4 +336,16 @@ hr {
   border-style: dotted;
   border-color: #cccccc;
   height: 1px;
+}
+
+/**
+ * My common class
+ */
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
 }

@@ -7,13 +7,39 @@
 @import "compass";
 //import mixins
 @import "mixins";
+//import variables
+@import "variables";
 
-* {
-  outline: none;
+/* =============================================================================
+  Common style 
+   ========================================================================== */
+/**
+ * My common style for elements
+ */
+
+body {
+  background-color:$white;
+  color:$black;
+  line-height:$line-height;
+  font-family:$font-family;
 }
 
 hr {
   $b-style:dotted;
   $b-color:#ccc;
   @include hr-style($b-style, $b-color);
+}
+
+
+
+/**
+ * My common class
+ */
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  @include clearfix;
 }
