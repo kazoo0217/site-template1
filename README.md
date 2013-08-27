@@ -10,4 +10,4 @@
 - include Sass/Compass init
 - include jQuery CDN
 - include smooth-scroll (kswedberg/jquery-smooth-scroll)
-- include normalize.scss (hail2u/normalize.scss)
+- include normalize.css (necolas/normalize.css)
