@@ -18,15 +18,15 @@
  */
 
 body {
-  background-color:$white;
-  color:$black;
-  line-height:$line-height;
-  font-family:$font-family;
+  background-color: $white;
+  color: $black;
+  line-height: $line-height;
+  font-family: $font-family;
 }
 
 hr {
-  $b-style:dotted;
-  $b-color:#ccc;
+  $b-style: dotted;
+  $b-color: #ccc;
   @include hr-style($b-style, $b-color);
 }
 
