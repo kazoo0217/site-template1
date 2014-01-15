@@ -15,7 +15,7 @@
 <meta name="author" content="" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<link rel="stylesheet" href="../css/common.css" />
+<link type="text/css" href="../css/common.css" rel="stylesheet" />
 <!-- TemplateBeginEditable name="head" -->
 
 <!-- TemplateEndEditable -->
@@ -37,6 +37,7 @@ EditRegionMain
 <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
 <!-- kswedberg/jquery-smooth-scroll 1.4.9 -->
 <script type="text/javascript" src="../js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 
 </body>
 </html>

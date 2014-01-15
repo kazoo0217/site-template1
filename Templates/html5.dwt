@@ -31,7 +31,7 @@ EditRegionMain
 <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
 <!-- kswedberg/jquery-smooth-scroll 1.4.9 -->
 <script type="text/javascript" src="../js/jquery.smooth-scroll.min.js"></script>
-
+<script type="text/javascript" src="../js/main.js"></script>
 
 </body>
 </html>
