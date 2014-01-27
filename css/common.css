@@ -13,12 +13,12 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #333333;
 }
 
 html {
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 100%;
+  line-height: 1.6;
 }
 
 /*
@@ -93,16 +93,7 @@ textarea {
  */
 body {
   background-color: white;
-  color: #333333;
-  line-height: 1.6;
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
-hr {
-  border-width: 1px 0px 0px 0px;
-  border-style: dotted;
-  border-color: #cccccc;
-  height: 1px;
+  font-family: "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
 }
 
 /**
