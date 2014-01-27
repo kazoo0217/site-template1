@@ -18,11 +18,12 @@
 <link rel="stylesheet" type="text/css" href="../css/normalize.css?ver=2.1.3" />
 <link rel="stylesheet" type="text/css" href="../css/common.css" />
 <!-- TemplateBeginEditable name="head" -->
-
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="id" type="text" value="" -->
+<!-- TemplateParam name="class" type="text" value="" -->
 </head>
 
-<body>
+<body id="@@(id)@@" class="@@(_document['class'])@@">
 
 
 <!-- TemplateBeginEditable name="EditRegionMain" -->

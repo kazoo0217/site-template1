@@ -16,9 +16,11 @@
 <!-- TemplateBeginEditable name="head" -->
 
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="id" type="text" value="" -->
+<!-- TemplateParam name="class" type="text" value="" -->
 </head>
 
-<body>
+<body id="@@(id)@@" class="@@(_document['class'])@@">
 
 
 <!-- TemplateBeginEditable name="EditRegionMain" -->
