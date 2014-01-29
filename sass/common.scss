@@ -26,12 +26,12 @@ button,
 input,
 select,
 textarea {
-    color: $black;
+    color: $black;// for variables
 }
 
 html {
-    font-size:   $font-size;
-    line-height: $line-height;
+    font-size:   $font-size;// for variables
+    line-height: $line-height;// for variables
 }
 
 /*
@@ -117,18 +117,46 @@ body {
   font-family: $font-family;
 }
 
+/* default table style */
+table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  th,td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: .5em 1em;
+  }
+  th {
+  }
+  td {
+  }
+}
+
+
+.hr-test {
+  /* include mixin */
+  @include hr-style(2em, 1px, dotted, red);
+}
+
 
 /**
  * My common class
  */
 
+/* float left */
+.float-left {
+  float: left;
+}
+
+/* float right */
+.float-right {
+  float: right;
+}
+
+/* float clear */
 .clear {
   clear: both;
 }
-
-
-
-
 
 
 

@@ -96,9 +96,41 @@ body {
   font-family: "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
 }
 
+/* default table style */
+table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+table th, table td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: .5em 1em;
+}
+
+.hr-test {
+  /* include mixin */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px dotted red;
+  margin: 2em 0;
+  padding: 0;
+}
+
 /**
  * My common class
  */
+/* float left */
+.float-left {
+  float: left;
+}
+
+/* float right */
+.float-right {
+  float: right;
+}
+
+/* float clear */
 .clear {
   clear: both;
 }

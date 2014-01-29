@@ -2,9 +2,14 @@
 //mixins
 
 //hr line style
-@mixin hr-style($b-style, $b-color) {
-  border-width: 1px 0px 0px 0px;
-  border-style: $b-style;
-  border-color: $b-color;
-  height: 1px;
+@mixin hr-style($b-margin, $b-height, $b-style, $b-color) {
+  display: block;
+  height: $b-height;
+  border: 0;
+  border-top: $b-height $b-style $b-color;
+  margin: $b-margin 0;
+  padding: 0;
 }
+
+// some mixins
+
