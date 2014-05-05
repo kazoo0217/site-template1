@@ -4,7 +4,7 @@
 
 - DOCTYPE XHTML 1.0 Transitional and HTML5 Format
 - Dreamewaver Template
-- HTML5 Boilerplate like IE Hack
+- <s>HTML5 Boilerplate like IE Hack</s>
 - include HTML5 Boilerplate CSS
 - include Sass/Compass init
 - <s>include jQuery CDN (Google hosting)</s>
