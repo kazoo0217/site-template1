@@ -6,6 +6,7 @@ css_dir = "css"
 sass_dir = "sass"
 images_dir = "/"
 javascripts_dir = "js"
+cache_dir = "_notes/.sass-cache"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded
@@ -20,6 +21,8 @@ relative_assets = true
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 line_comments = false
 
+# Don't create .sass-cache
+# cache = false
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
