@@ -38,6 +38,8 @@ EditRegionMain
 <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../js/jquery.smooth-scroll.min.js?ver=1.4.11"></script>
 <script type="text/javascript" src="../js/main.js"></script>
+<!-- TemplateBeginEditable name="EditRegionFoot" -->
 
+<!-- TemplateEndEditable -->
 </body>
 </html>
